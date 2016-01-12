@@ -1,0 +1,85 @@
+// Put any @imports here
+// See Readme for a list of supported ones
+
+body {
+  background: #e2ebf3;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mainContainer{
+  border:1px solid black;
+  width: 80%;
+  //height: 180px;
+  margin :1% auto;
+
+}
+.st{
+  position:relative;
+}
+.arrowdiv{
+  position:absolute;
+  border:1px solid grey;
+  width :17px;
+  height:17px;
+  top:16px;
+  left:237px;
+
+}
+
+.arrow{
+  position:absolute;
+  top:6px;
+  left:5px;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 7.5px 4px 0 4px;
+border-color: #000000 transparent transparent transparent;
+}
+
+.personal,.location{
+  display : block;
+  width:90%;
+  margin :1% auto;
+  //border :1px solid blue;
+  //padding :2%;
+
+}
+
+.fn , .mi, .ln, .ct,.st,.zip{
+  //border:1px solid red;
+  // margin : 0 auto;
+  display:inline-block;
+  width :20%;
+  padding-right: 4%;
+  margin-right: 6%;
+  text-align: left;
+}
+input{
+  width : 250px;
+  margin-right: 10% !important;
+  text-align: left;
+}
+
+.mi input{
+  display:block;
+  width : 30px;
+  text-align: left;
+  //margin-left: 35%;
+}
+
+.zip input{
+  display:block;
+  width : 80px;
+}
+
+.btn{
+  width:100%;
+}
+button{
+  width:40%;
+  margin:2% 22%;
+  border-radius:5px;
+}
